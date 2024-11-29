@@ -1,0 +1,1 @@
+const pageDelete = async (pageList) => {};
