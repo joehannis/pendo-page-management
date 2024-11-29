@@ -42,7 +42,7 @@ const pageTester = async (idList) => {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
-              Cookie: process.env.COOKIE,
+              Cookie: `pendo.sess.jwt2=${process.env.COOKIE}`,
             },
             body: JSON.stringify(requestBody),
           });
